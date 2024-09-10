@@ -1,0 +1,37 @@
+## this is a yaml file for learning
+## all the key values in yaml are in lower case  
+## it not mandatory to write string in quotation in yaml file
+## date format in yaml file is YYYY-MM-DD
+
+my-course : "Frisson Devhub Ai Learning"
+version : 1.0
+price : 299
+is_public : true
+release_date : 2024-04-19
+pre_enrolled : null
+category : 
+ - AWS
+ - DevOps
+ - MlOps
+course_dev : ['Murthy','Kavya','Nirnaya']
+dev_details:
+ - name : Murthy 
+   email : support@frisson.co.in
+   role : author
+ - name : 'Kavya'
+   email: support@frisson.co.in
+   role : Editor
+ - name : Nirnay
+   email: support@frisson.co.in
+   role : Co-Author
+ - {name : Navishka,email: support@frisson.co.in,role: Finance}
+
+short_description: >
+ This is a course for  
+ AWS DevOps Professionals 
+ Certification
+
+detailed_description : |
+ This course has been created with 
+ the colaboration with industry experts 
+ we hope you like it 
